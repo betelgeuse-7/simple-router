@@ -1,7 +1,7 @@
 This is for learning purposes.
 
 I am trying to understand how routers like gorilla/mux, julienschmidt/httprouter etc., work behind the scenes.
-This is, of course, a very simple example, but I somewhat learned the main idea behind routers.
+This is, of course, a very simple example, but I learned a bit about the main idea behind routers.
 
 Request --> Router
                 Decide which handler to run.
