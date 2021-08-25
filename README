@@ -1,0 +1,9 @@
+This is for learning purposes.
+
+I am trying to understand how routers like gorilla/mux, julienschmidt/httprouter etc., work behind the scenes.
+This is, of course, a very simple example, but I somewhat learned the main idea behind routers.
+
+Request --> Router
+                Decide which handler to run.
+                If the request path is not known, reply with 404.
+                Else, run the appropriate handler function.
